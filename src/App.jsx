@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 export const App = () => {
+  // 初期値はからにしておく
   const [todoText, setTodoText] = useState("");
   const [incompleteTodos, setIncompleteTodos] = useState([]);
   const [completeTodos, setCompleteTodos] = useState([]);
